@@ -348,7 +348,6 @@ html, body {
 
 .loged-icon::after {
 	background:url(../images/icons/help-gray.png) no-repeat center center;
-	
 }
 
 .loged-info {
@@ -512,6 +511,7 @@ html, body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .loged-detail .has-child .has-sub-manage::before{
 	content: '';
     position: absolute;

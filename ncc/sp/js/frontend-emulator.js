@@ -259,16 +259,6 @@ function DatePicker() {
 		centerMenu();
 	});
 
-	$('.has-sub-manage').click(function(){
-		var that = $(this);
-		if(that.hasClass('active')){
-			that.removeClass('active');
-			$('.loged-detail .has-child > ul').removeClass('active');
-		}else{
-			that.addClass('active');
-			$('.loged-detail .has-child > ul').addClass('active');
-		}	
-	});
 
 	$('.loged-detail a').click(function(e){
 		e.preventDefault();

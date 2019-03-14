@@ -249,41 +249,41 @@ body {
 }
 
 /*  */
-.loged-detail .has-child a{
+.loged-detail .has-sub-manage a{
 	font-weight: 700;
 	position: relative;
 }
-.loged-detail .has-child ul {
+.loged-detail .has-sub-manage ul {
 	position: relative;
     display: none;
 }
-.has-child .small-item{
+.has-sub-manage .small-item{
 	padding: 0;
 }
-.loged-detail .has-child ul .small-item a:first-child{
+.loged-detail .has-sub-manage ul .small-item a:first-child{
 	margin: 0;
 }
-.loged-detail .has-child ul .small-item a {
+.loged-detail .has-sub-manage ul .small-item a {
     margin-top: 5px;
     display: block;
 }
-.loged-detail .has-child ul .small-pic {
+.loged-detail .has-sub-manage ul .small-pic {
     width: 25px;
     height: 25px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
-.loged-detail .has-child ul .small-pic img {
+.loged-detail .has-sub-manage ul .small-pic img {
     height: 100%;
 }
-.loged-detail .has-child ul .small-item h3 {
+.loged-detail .has-sub-manage ul .small-item h3 {
     font-size: 16px;
     line-height: 25px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.loged-detail .has-child .has-sub-manage::before{
+.loged-detail .has-sub-manage .has-sub-manage::before{
 	content: '';
     position: absolute;
     top: 11px;
@@ -294,7 +294,7 @@ body {
     border-bottom: 0;
 	display: block;
 }
-.loged-detail .has-child .has-sub-manage::after{
+.loged-detail .has-sub-manage .has-sub-manage::after{
 	content: '';
     position: absolute;
     top: 11px;
@@ -309,9 +309,6 @@ body {
 	display: none;
 }
 .loged-detail .has-child .has-sub-manage.active::after{
-	display: block;
-}
-.loged-detail .has-child ul.active{
 	display: block;
 }
 .has-child > ul .small-title h3{
